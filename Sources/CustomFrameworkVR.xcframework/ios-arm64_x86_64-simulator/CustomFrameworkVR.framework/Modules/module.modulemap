@@ -1,0 +1,6 @@
+framework module CustomFrameworkVR {
+  umbrella header "CustomFrameworkVR.h"
+  export *
+
+  module * { export * }
+}

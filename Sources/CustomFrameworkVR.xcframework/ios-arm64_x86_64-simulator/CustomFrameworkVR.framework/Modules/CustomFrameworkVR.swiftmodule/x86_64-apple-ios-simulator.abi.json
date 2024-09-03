@@ -1,0 +1,98 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFrameworkVR",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CustomFrameworkVR3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s17CustomFrameworkVR3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "CustomFrameworkVR",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17CustomFrameworkVR3SDKV10doSomeWorkyyFZ",
+            "mangledName": "$s17CustomFrameworkVR3SDKV10doSomeWorkyyFZ",
+            "moduleName": "CustomFrameworkVR",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17CustomFrameworkVR3SDKV",
+        "mangledName": "$s17CustomFrameworkVR3SDKV",
+        "moduleName": "CustomFrameworkVR",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/visioapps\/Desktop\/Package\/Framework\/CustomFrameworkVR\/CustomFrameworkVR\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/visioapps\/Desktop\/Package\/Framework\/CustomFrameworkVR\/CustomFrameworkVR\/SDK.swift",
+      "kind": "Array",
+      "offset": 215,
+      "length": 31,
+      "value": "[\"privateKey123\"]"
+    }
+  ]
+}
